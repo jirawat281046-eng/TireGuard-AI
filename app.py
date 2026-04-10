@@ -121,5 +121,6 @@ def predict():
     return jsonify({'error': 'Invalid file type'}), 400
 
 if __name__ == '__main__':
-    # Disable debug mode to prevent double-loading of the large model
-    app.run(debug=False, port=5000)
+    # Port 7860 is the standard for Hugging Face Spaces
+    port = int(os.environ.get("PORT", 7860))
+    app.run(host='0.0.0.0', port=port)

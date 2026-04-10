@@ -3,3 +3,5 @@ pillow
 numpy
 matplotlib
 scikit-learn
+flask
+pandas

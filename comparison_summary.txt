@@ -1,0 +1,5 @@
+Model Comparison Results
+========================
+MobileNetV2: 81.89%
+EfficientNetV2B0: 55.41%
+ResNet50V2: 84.05%
