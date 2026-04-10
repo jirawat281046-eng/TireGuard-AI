@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Uploads and temporary data
+uploads/
+*.csv
+!real_world_results.csv
+*.png
+!multiclass_training_history.png
+!final_3class_cm.png
+!real_world_summary_plot.png
+
+# Models (Optional: only if you want to push them with LFS)
+# *.h5
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
